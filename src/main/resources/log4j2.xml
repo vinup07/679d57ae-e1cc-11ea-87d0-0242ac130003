@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Properties>
+        <Property name="LOG_PATTERN">
+            %d [%-6p][%-12t] %C{1}.%M(%F:%L) – %m%n
+        </Property>
+    </Properties>
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.telstra.amdocsautomation" level="info" additivity="false">
+            <AppenderRef ref="ConsoleAppender" />
+        </Logger>
+
+        <Root level="info">
+            <AppenderRef ref="ConsoleAppender" />
+        </Root>
+    </Loggers>
+</Configuration>
+
+<!--<configuration status="WARN">-->
+<!--    <appenders>-->
+<!--        &lt;!&ndash; Async Loggers will auto-flush in batches, so switch off immediateFlush. &ndash;&gt;-->
+<!--        <Console name="FastConsole" target="SYSTEM_OUT" immediateFlush="false" append="false">-->
+<!--            <PatternLayout>-->
+<!--                <pattern>%d %p %c{1.} [%t] %m %ex%n</pattern>-->
+<!--            </PatternLayout>-->
+<!--        </Console>-->
+<!--        <Console name="MainRunner" target="SYSTEM_OUT" immediateFlush="false" append="false">-->
+<!--        <PatternLayout>-->
+<!--            <pattern>%d[%-6p]: %m %ex%n</pattern>-->
+<!--        </PatternLayout>-->
+<!--    </Console>-->
+<!--    </appenders>-->
+<!--    <loggers>-->
+<!--        <root level="debug" includeLocation="false">-->
+<!--            <appender-ref ref="MainRunner"/>-->
+<!--        </root>-->
+<!--    </loggers>-->
+<!--</configuration>-->
