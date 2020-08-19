@@ -13,7 +13,7 @@ public class BasicQuestions {
         System.out.println("Hi");
 
 
-        //The method "checkAvailability" below checks and returns success if the name is available.
+        //The method "checkAvailability" below checks and returns success if the name is available using checkAvailability method below.
         //TODO: capture all the strings that are available in testArray.
 
     }
