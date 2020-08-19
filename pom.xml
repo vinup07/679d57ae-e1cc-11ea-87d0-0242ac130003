@@ -2,7 +2,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
+<<<<<<< HEAD
     <groupId>com.telstra.interview</groupId>
+=======
+    <groupId>com.telstra.b2b.dig</groupId>
+>>>>>>> 571106c3f7f0c05edcd9868ed03daa72a6c15942
     <artifactId>java-interview</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
