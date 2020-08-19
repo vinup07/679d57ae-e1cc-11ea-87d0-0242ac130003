@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.telstra.b2b.dig</groupId>
-    <artifactId>jvm-interview</artifactId>
+    <artifactId>java-interview</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>cucumber-jvm-maven</name>
