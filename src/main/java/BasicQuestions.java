@@ -13,8 +13,10 @@ public class BasicQuestions {
         System.out.println("Hi");
 
 
-        //The method "checkAvailability" below checks and returns success if the name is available using checkAvailability method below.
-        //TODO: capture all the strings that are available in testArray.
+        //The method "checkAvailability" is a third party method
+        // "checkAvailability"checks and returns success if the name is available.
+        
+        //Q1: Create a list of all the strings that are available (using Check Availability method) in testArray.
 
     }
 
