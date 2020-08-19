@@ -4,14 +4,10 @@ import com.telstra.b2b.dig.Tester.reader.ExcelReader;
 import groovy.util.logging.Log;
 import groovy.util.logging.Log4j2;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
-import javafx.util.Pair;
 import org.apache.commons.lang3.concurrent.ConcurrentException;
 
 import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.*;
 import java.util.function.BiFunction;
 
@@ -19,16 +15,15 @@ import java.util.function.BiFunction;
 public class ComplexQuestions {
 
 
-    //Question 1 what is the output of the following?
+    //Question 1 what is the output of the main method?
 
     public static void main(String... doYourBest) {
         StringBuilder warriorProfession = new StringBuilder("Dragon ");
         String warriorWeapon = "Sword ";
         changeWarriorClass(warriorProfession, warriorWeapon);
 
-        System.out.println("Warrior=" + warriorProfession + " Weapon=" + warriorWeapon);
+        System.out.println(warriorProfession + " " + warriorWeapon);
 
-        new ComplexQuestions().ValidateNumberMatches();
     }
 
     static void changeWarriorClass(StringBuilder warriorProfession, String weapon) {
@@ -39,17 +34,16 @@ public class ComplexQuestions {
         warriorProfession = null;
     }
 
-    //Question 2: Create a subClass that implements a Linked List that stores an Integer value, and write a insert in order method.
+    //Question 2: Implement your own LinkedList. do not use Standard Java Implementation.
 
 
     //Question 3: Create a method that checks if a String passed to it is a valid integer.
 
 
     //Question 4: Complete 1 of Question 4a and 4b
-    //Question 4a is focused around back-end logic.(below)
-    //Question 4b is focused on Rest APIs and is found in the class API2.
+    //Question 4a: is focused on Rest APIs and is found in the class APIConnection.
 
-    //Question 4a: Inspect the following code and describe what it does.
+    //Question 4b: Inspect the following code and describe what it does.
 
     private ThreadFactory threadFactory;
     private ExecutorService executorService;
