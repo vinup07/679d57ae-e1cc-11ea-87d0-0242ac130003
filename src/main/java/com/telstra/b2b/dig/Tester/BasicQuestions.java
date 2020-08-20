@@ -1,7 +1,5 @@
 package com.telstra.b2b.dig.Tester;
 
-import java.util.List;
-
 public class BasicQuestions {
 
     public static void main(String[] args){
@@ -10,13 +8,13 @@ public class BasicQuestions {
         };
 
         //TODO: print out the contents of testArray on a single line
-        System.out.println("Hi");
 
 
-        //The method "checkAvailability" is a third party method
-        // "checkAvailability"checks and returns success if the name is available.
-        
-        //Q1: Create a list of all the strings that are available (using Check Availability method) in testArray.
+        //The method "checkAvailability" below checks if a name is available and returns the result as a boolean.
+        //TODO: create a new List of Strings, and populate it with values in testArray that are available.
+
+
+
 
     }
 
