@@ -16,7 +16,7 @@ public class BasicQuestions {
             //Some Code
             return true;
         }
-        //Question: Capture all the strings that are pallindrome's in the "namearray" using the checkPallindrome method
+        //Question: Create a list of  all the strings that are pallindrome's in the "namearray" using the checkPallindrome method
 
     }
 
